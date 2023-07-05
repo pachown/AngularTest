@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-detailt',
+  selector: 'app-details',
   standalone: true,
   imports: [CommonModule],
   template: `
@@ -12,6 +12,6 @@ import { CommonModule } from '@angular/common';
   `,
   styleUrls: ['./details.component.css']
 })
-export class DetailtComponent {
+export class DetailsComponent {
 
 }
